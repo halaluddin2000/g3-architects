@@ -1,0 +1,62 @@
+/* google font */
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* ---------primary--------- */
+.btn-primary {
+  border-radius: 8px;
+  background: #ff900e;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  color: white;
+  margin-top: 20px;
+}
+
+header {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+nav {
+  display: flex;
+  padding: 15px 140px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: var(--Dark-01, #131313);
+  font-size: 45px;
+  font-weight: 700;
+}
+
+nav > ul {
+  display: flex;
+  list-style-type: none;
+}
+ul > li a {
+  color: var(--Dark-02, #424242);
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 40px;
+  text-decoration: none;
+}
+
+.header-content {
+  padding: 20px 300px;
+  align-items: center;
+  text-align: center;
+}
+.header-content h1 {
+  color: var(--Dark-01, #131313);
+  font-size: 64px;
+  font-weight: 700;
+}
+.header-section img {
+  padding: 20px 140px;
+  height: 100%;
+  width: 80%;
+}
+.header-content img {
+}
