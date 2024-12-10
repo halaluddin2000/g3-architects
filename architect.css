@@ -95,6 +95,12 @@ ul > li a {
     font-weight: 700;
   }
 }
+/* main style */
+main {
+  max-width: 1440px;
+  margin: 0px auto;
+}
+
 /* feature-section */
 .feature-section {
   padding: 20px 200px;
@@ -131,5 +137,11 @@ ul > li a {
   .feature-section {
     display: grid;
     padding: 10px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  .feature-section {
+    display: grid;
+    padding: 20px;
   }
 }
